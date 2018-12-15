@@ -16,9 +16,6 @@ def concatenate
   cafes = StreetCafe.where("category like ? OR category like ?", "%medium%", "%large%")
   cafes.each do |cafe|
     prefix = cafe.category.split(' ')[1]
-    puts "_"*100
-    puts cafe.inspect
-    puts prefix
     cafe.update(
       name: "#{prefix} #{cafe.name}"
     )
