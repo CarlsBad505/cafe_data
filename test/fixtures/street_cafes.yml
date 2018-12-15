@@ -1,0 +1,50 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+ls1:
+  name: Carl's Cafe
+  address: Here
+  postal_code: LS1 000
+  chairs: 9
+  category:
+
+another_ls1:
+  name: Brown's Cafe
+  address: Over There
+  postal_code: LS1 000
+  chairs: 120
+  category: 'ls1 large'
+
+yet_another_ls1:
+  name: Ralph's Cafe
+  address: Over Here
+  postal_code: LS1 202
+  chairs: 15
+  category: 'ls1 medium'
+
+ls2:
+  name: Jake's Cafe
+  address: There
+  postal_code: LS2 123
+  chairs: 1
+  category:
+
+another_ls2:
+  name: Jake's Cafe
+  address: There
+  postal_code: LS2 123
+  chairs: 50
+  category:
+
+yet_another_ls2:
+  name: Bob's Cafe
+  address: Over There
+  postal_code: LS2 888
+  chairs: 20
+  category:
+
+other:
+  name: Other Cafe
+  address: Somewhere
+  postal_code: LS9 999
+  chairs: 101
+  category:
